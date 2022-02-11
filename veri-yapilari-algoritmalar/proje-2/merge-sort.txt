@@ -1,0 +1,16 @@
+[16,21,11,8,12,22]  -> Merge Sort
+
+1 - Yukaridaki dizinin sort türüne göre asamalarini yaziniz.
+
+1- [16,21,11] [8,12,22]
+2- [16] [21,11] [8] [12,22]
+3- [16] [11,21] [8] [12,22]
+4- [10,11,21] [8,12,22]
+5- [8,10,11,12,21,22]
+
+2- Big-O gösterimi
+
+n kere işlem 2^x = n
+logn = x
+O(n) her işlemde gelir.
+Time Complexity -> O(nlogn)
