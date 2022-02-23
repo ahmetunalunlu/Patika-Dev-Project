@@ -1,0 +1,84 @@
+/* 
+COLORS
+rgb(238, 238, 238) - LightGrey
+rgb(126, 229, 218); - Box-1
+rgb(112, 204, 194) - Box-2
+rgb(98, 179, 170) - Box-3
+--------------------------
+*/
+
+/*********** Global Styles ************/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* Search Table */
+
+.container {
+    background-color: rgb(238, 238, 238);
+}
+.container p {
+    text-align: center;
+    font-size: 16px;
+    text-shadow:    5px 5px 5px -3px #000000;
+    margin: 0;
+    font-weight: 500;
+}
+input {
+    padding: 3px ;
+}
+
+/* Tables */
+
+.left-box {
+    width: 37%;
+    height: 74px;
+    float: left;
+    margin-top: 2px;
+    margin-right: 2px;
+    /* margin: 2px 2px 2px 2px; */
+    text-align: center;
+    padding: 10px;  
+    background-color: rgb(126, 229, 218);
+}
+
+.mid-box{
+    width: 19%;
+    height: 74px;
+    float: left;
+    margin: 2px 2px 2px 2px;
+    text-align: center;
+    padding: 10px;  
+    line-height: 1.2;
+    background-color: rgb(112, 204, 194);
+}
+.right-box {
+    width: 39.9%;
+    height: 74px;
+    float: left;
+    margin-left: 2px;
+    margin-top: 2px;
+    text-align: center;
+    padding: 10px;  
+    line-height: 1.2;
+    background-color: rgb(98, 179, 170);
+}
+.right-box input {
+    border: 1px solid black;
+    width: 200px;
+}
+
+.clearfix {
+    clear: both;
+}
+/* Footer */
+footer {
+    margin: 10px 0;
+}
